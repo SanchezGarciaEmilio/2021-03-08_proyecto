@@ -1,6 +1,7 @@
-# Ejercicio Group
+# Blood Donar Project
 
-En este ejercicio usaremos una base de datos sobre las ventas de una empresa a distintos clientes.
+In this project we are going to manipulate a database's extract from the blood donators, patients and blood banks.
+We have three collections, one for the donor, one for the patients and the last for the blood banks.
 
 
 ### Archivos
