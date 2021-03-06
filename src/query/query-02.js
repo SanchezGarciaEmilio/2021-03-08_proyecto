@@ -40,9 +40,23 @@ db.donar.aggregate([
     {$project:{
         _id:0,
         quantityBlood:1
-    }}
+    }},
+    {$merge: "donarQuery1"}
 ])
 
 //{ "quantityBlood" : [ { "type" : "A-", "quantity" : 1 } ] }
 //{ "quantityBlood" : [ { "type" : "AB+", "quantity" : 0.4 } ] }
 //{ "quantityBlood" : [ { "type" : "B+", "quantity" : 0.7 } ] }
+
+
+//
+db.donar.aggregate([
+    {$group:{
+        _id: "$donarBloodGroup",
+        quantityBlood: {$push: {type: "$donarBloodGroup",quantity: {$sum: "$donarTotal"}}} 
+    }},
+    {$project:{
+        _id:0,
+        quantityBlood:1
+    }}
+])
