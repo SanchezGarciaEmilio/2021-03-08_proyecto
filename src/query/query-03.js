@@ -2,7 +2,7 @@
 
 //Hacemos busquedas con el lookup para buscar datos especificos entre las bases de datos.
 
-
+//Buscamos los pacientes que no han recibido ninguna transfusión y buscamos cuanta sangre disponemos de cada tipo.
 db.patient.aggregate([
     {
         $match: {
@@ -18,6 +18,7 @@ db.patient.aggregate([
     }},
     {$project:{
         _id:0,
+        patNHS:1,
         patBloodGroup:1,
         totalBlood: {$round: [{$sum: ["$donar.donarTotal"]},2]}
     }},
@@ -26,12 +27,12 @@ db.patient.aggregate([
     }}
 ])
 
-//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
-//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
-//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
-//{ "patBloodGroup" : "0-", "totalBlood" : 1.7 }
-//{ "patBloodGroup" : "A+", "totalBlood" : 0 }
-//{ "patBloodGroup" : "A+", "totalBlood" : 0 }
+//{ "patNHS" : 6475879274, "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patNHS" : 9239003371, "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patNHS" : 3368107856, "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patNHS" : 3243843774, "patBloodGroup" : "0-", "totalBlood" : 1.7 }
+//{ "patNHS" : 5946681176, "patBloodGroup" : "A+", "totalBlood" : 0 }
+//{ "patNHS" : 5871689485, "patBloodGroup" : "A+", "totalBlood" : 0 }
 
 
 
