@@ -71,7 +71,8 @@ db.donar.aggregate([
             bbName: { $last: "$_id" },
             numDonar: "$count"
         }
-    }
+    },
+    { $merge: "donarQuery2" }
 ])
 
 //{ "bbName" : [ "The Blood Association" ], "numDonar" : 3 }
