@@ -20,10 +20,18 @@ db.patient.aggregate([
         _id:0,
         patBloodGroup:1,
         totalBlood: {$round: [{$sum: ["$donar.donarTotal"]},2]}
+    }},
+    {$sort:{
+        totalBlood:-1
     }}
 ])
 
-//
+//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patBloodGroup" : "0+", "totalBlood" : 2.45 }
+//{ "patBloodGroup" : "0-", "totalBlood" : 1.7 }
+//{ "patBloodGroup" : "A+", "totalBlood" : 0 }
+//{ "patBloodGroup" : "A+", "totalBlood" : 0 }
 
 
 

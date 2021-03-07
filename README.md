@@ -35,13 +35,13 @@ El *[query-01](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/m
 El *[query-02](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/query/query-02.js)* donde ya hemos hecho búsquedas de mayor nivel en el que hemos incluido el aggregate.
 Y el *[query-03](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/query/query-03.js)* donde ya hemos usado el lookup y búsquedas entre las colecciones.
 
-En una de las búsquedas hemos realizado una nueva colección para obtener una *[query-03](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Graphs/Donantes%202020%20(junio-diciembre).png)* que nos enseñase los datos de una forma más visual.
+En una de las búsquedas hemos realizado una nueva colección para obtener una *[gráfica](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Graphs/Donantes%202020%20(junio-diciembre).png)* que nos enseñase los datos de una forma más visual.
 
 
 
 # Documentación 📝
 
-En la carpeta de *[documentation](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc)*(doc) hemos incluido las nociones teóricas necesarias para este proyecto, y una carpeta nueva llamada *[documentation](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc/Graphs)*, donde hemos incluido las gráficas creadas en este proyecto.
+En la carpeta de *[documentation](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc)*(doc) hemos incluido las nociones teóricas necesarias para este proyecto, y una carpeta nueva llamada *[Graphs](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc/Graphs)*, donde hemos incluido las gráficas creadas en este proyecto.
 
 En una de las búsquedas hemos usado el *merge*, creando el csv anteriormente nombrado. De él hemos obtenido una gráfica que hemos incluido en el apartado 
 
