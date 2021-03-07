@@ -35,15 +35,15 @@ El *[query-01](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/m
 El *[query-02](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/query/query-02.js)* donde ya hemos hecho búsquedas de mayor nivel en el que hemos incluido el aggregate.
 Y el *[query-03](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/query/query-03.js)* donde ya hemos usado el lookup y búsquedas entre las colecciones.
 
-En una de las búsquedas hemos realizado una nueva colección para obtener una *[gráfica](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Graphs/Donantes%202020%20(junio-diciembre).png)* que nos enseñase los datos de una forma más visual.
+En algunas de las búsquedas hemos realizado una nueva colección para obtener gráficas que nos enseñase los datos de una forma más visual. Esas son *[los donantes de junio-diciembre 2020](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Graphs/Donantes%202020%20(junio-diciembre).png)* y *[los donantes por banco de sangre](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Graphs/Donantes%20por%20banco%20de%20sangre.png)*.
 
 
 
 # Documentación 📝
 
-En la carpeta de *[documentation](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc)*(doc) hemos incluido las nociones teóricas necesarias para este proyecto, y una carpeta nueva llamada *[Graphs](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc/Graphs)*, donde hemos incluido las gráficas creadas en este proyecto.
+En la carpeta de *[documentation](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc)*(doc) hemos incluido las nociones teóricas necesarias para este proyecto en el archivo de *[teoria](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/doc/Teoria.pdf)*.
 
-En una de las búsquedas hemos usado el *merge*, creando el csv anteriormente nombrado. De él hemos obtenido una gráfica que hemos incluido en el apartado 
+También hemos añadido una carpeta nueva llamada *[Graphs](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/doc/Graphs)*, donde hemos incluido las gráficas creadas en este proyecto.
 
 
 
