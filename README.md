@@ -45,4 +45,10 @@ En una de las búsquedas hemos usado el *merge*, creando el csv anteriormente no
 
 
 
+# Fuente(s) 💾
+
+Gran parte de los datos usados en este proyecto han sido imaginarios, pero otros hemos hecho uso de otras páginas para ayudarnos a completarlos, como los nombres de los donantes y los pacientes. Para ello hemos usado la web de *[mockaroo](https://mockaroo.com)*.
+
+
+
 > Emilio Sánchez García
