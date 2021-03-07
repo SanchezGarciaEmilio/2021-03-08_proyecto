@@ -1,5 +1,5 @@
 # PROJECTO DONANTES DE SANGRE
-## MongoDB
+### MongoDB
 
 Este proyecto trata sobre una teórica base de datos sobre donantes de sangre, los bancos a los que se les dona dicha sangre y algunos pacientes que han recibido o pueden recibir la sangre. Las distintas colecciones están planteadas de forma que contengan un poco de información de cada tipo, a modo de versión más corta de lo que podría ser una base completa.
 
