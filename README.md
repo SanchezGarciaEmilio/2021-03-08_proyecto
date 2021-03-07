@@ -12,7 +12,7 @@ En la carpeta de *[source](https://github.com/SanchezGarciaEmilio/2021-03-08_pro
 # Datos 📊
 
 Dentro de source tenemos la carpeta de *[data](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/tree/main/src/data)*, donde tenemos todos los datos de las tres colecciones en un único archivo, *[data.js](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/data/data.js)*.
-También hay un archivo csv, *[donarQuery1.csv](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/data/donarQuery1.csv)*, que hemos obtenido mientras realizábamos las búsquedas en nuestra base.
+También hay dos archivos csv, *[donarQuery1.csv](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/data/donarQuery1.csv)* y *[donarQuery2.csv](https://github.com/SanchezGarciaEmilio/2021-03-08_proyecto/blob/main/src/data/donarQuery2.csv)*, que hemos obtenido mientras realizábamos las búsquedas en nuestra base.
 
 Tenemos tres colecciones dentro de data.js:
 
